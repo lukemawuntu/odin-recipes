@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif
+  font-family: sans-serif;
+  line-height:1.5em;
 }
 
 .title {
@@ -11,3 +12,27 @@ body {
   margin:0;
   padding:0;
 }
+
+img{
+  width: 500px;
+  height: auto;
+}
+
+.description{
+  background-color: honeydew;
+  width: 500px;
+}
+
+.ingredients{
+  background-color: azure;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+.steps{
+  background-color: aliceblue;
+  width: 500px;
+}
+
