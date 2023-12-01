@@ -5,3 +5,9 @@ body {
 .title {
   text-align: center;
 }
+
+.dish-list{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
