@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   line-height:1.5em;
+  box-sizing: border-box;
 }
 
 .title {
@@ -9,8 +10,8 @@ body {
 
 .dish-list{
   list-style-type: none;
-  margin:0;
-  padding:0;
+  display: flex;
+  border: 1px dotted pink;
 }
 
 img{
@@ -28,12 +29,34 @@ img{
   width: 500px;
 }
 
-li{
-  margin-bottom: 10px;
-}
-
 .steps{
   background-color: aliceblue;
   width: 500px;
+}
+
+/* Index Page */
+.dish-container{
+  border:1px dotted black;
+  width: 1200px;
+  height: 500px;
+}
+
+.chaliapin-view,
+.furikake-view,
+.gyoza-view{
+  /* border: 1px dotted black; */
+  padding: 10px ; 
+  margin: 10px auto ;
+  text-align: center;
+  font-size: 16px;
+}
+
+.chaliapin,
+.furikake,
+.gyoza{
+  border: 1px solid yellow;
+  margin: 10px auto;
+  width: 360px; 
+  height: 450px;
 }
 
