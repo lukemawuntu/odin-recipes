@@ -77,3 +77,13 @@ img{
   margin-top: 15px;
   font-size: 25px;
 }
+
+.chaliapin-img,
+.furikake-img,
+.gyoza-img{
+  width: 300px;
+  height: auto;
+  margin-left: 25px;
+  margin-top: 10px;
+  border: solid 5px black;
+}
