@@ -87,3 +87,11 @@ img{
   margin-top: 10px;
   border: solid 5px black;
 }
+
+.chaliapin-text,
+.furikake-text,
+.gyoza-text{
+  text-align: left;
+  padding: 0px 25px;
+  border: purple;
+}
