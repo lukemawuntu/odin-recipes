@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   line-height:1.5em;
   box-sizing: border-box;
+  background-color: #f8f7f7;
 }
 
 .title {
@@ -68,7 +69,7 @@ img{
 .chaliapin,
 .furikake,
 .gyoza{
-  border: 1px solid yellow;
+  background-color: #e7e7e7;
   margin: 10px auto;
   width: 360px; 
   height: 450px;
@@ -90,7 +91,7 @@ img{
   height: auto;
   margin-left: 25px;
   margin-top: 10px;
-  border: solid 5px black;
+  border: inset 3px black;
 }
 
 .chaliapin-text,
